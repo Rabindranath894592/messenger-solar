@@ -1,0 +1,64 @@
+.Service {
+	padding: 50px;
+}
+
+.ServiceItem,
+.ServiceItemRight,
+.ServiceItemRightBottom,
+.ServiceItemBottom {
+	text-align: center;
+	position: relative;
+	padding: 40px 27px;
+}
+
+.ServiceItem::before,
+.ServiceItemBottom::before {
+	content: '';
+	width: 1px;
+	height: 133px;
+	background: #f0f0f0;
+	position: absolute;
+	right: 0;
+	top: 45%;
+	transform: translate(0, -50%);
+}
+
+.ServiceItem::after,
+.ServiceItemRight::after,
+.ServiceItemBottom::after,
+.ServiceItemRightBottom::after {
+	content: '';
+	width: 208px;
+	height: 1px;
+	visibility: visible;
+	background: #f0f0f0;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+
+@media (max-width: 1199px) {
+	.ServiceItem::before,
+	.ServiceItemBottom::before {
+		display: none;
+	}
+}
+
+@media (min-width: 1199px) {
+	.ServiceItemBottom::after,
+	.ServiceItemRightBottom::after {
+		display: none;
+	}
+}
+
+.ServiceItemHeader {
+	font-size: 23px;
+	font-weight: 700;
+	padding: 10px 0;
+}
+
+.ServiceItemPara {
+	font-size: 16px;
+	font-weight: 300;
+}

@@ -1,0 +1,9 @@
+.Testimonial {
+    background-image: url(../assets/MessengerSolarBanner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}

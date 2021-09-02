@@ -1,0 +1,39 @@
+.Topbar {
+    background-color: #1fa84c;
+}
+
+.FooterCopyRightContent {
+    color: white;
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+.FooterSocial {
+    text-align: right;
+    padding-top: 20px;
+}
+
+.SocialLink {
+    margin: 10px;
+}
+
+.SocialIcon {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.SocialIcon:hover {
+    color: green;
+}
+
+@media (max-width: 1199px) {
+    .FooterCopyRightContent {
+        text-align: center;
+    }
+
+    .FooterSocial {
+        text-align: center;
+        padding-bottom: 20px;
+        padding-top: -35px;
+    }
+}

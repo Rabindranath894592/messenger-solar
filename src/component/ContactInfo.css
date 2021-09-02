@@ -1,0 +1,45 @@
+.ContactInfo {
+	padding: 50px 0;
+	margin: auto;
+}
+
+.ContactAddressHeading {
+	padding-top: 30px;
+	padding-bottom: 15px;
+	text-align: left;
+	font-size: 25px;
+	position: relative;
+	font-weight: 700;
+}
+
+.ContactAddressHeading::after {
+	content: '';
+	width: 208px;
+	height: 1px;
+	visibility: visible;
+	background: #1fa84c;
+	position: absolute;
+	bottom: 0;
+	left: 19%;
+	transform: translate(-50%, 0);
+}
+
+.ContactInfoWrap {
+	padding: 10px 0;
+}
+
+.ContactItem {
+	padding: 10px 0;
+}
+
+.AddressIcon {
+	font-size: 40px;
+	color: #1fa84c;
+	text-align: center;
+	margin: auto;
+}
+
+.ContactAddress {
+	font-size: 18px;
+	font-weight: 400;
+}

@@ -1,0 +1,13 @@
+.navbar-light .navbar-nav .nav-link {
+	font-size: 20px;
+	font-weight: 500;
+	color: #000;
+}
+
+.navbar {
+	padding: 3px 0;
+}
+
+.NavbarImage {
+	height: 50px;
+}

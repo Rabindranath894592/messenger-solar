@@ -1,0 +1,18 @@
+.LegalDocumentImage {
+	height: 60px;
+	width: 60px;
+	margin: auto;
+}
+
+.LegalDocumentPaper {
+	height: 500px;
+	width: auto;
+	border: 5px outset #777777;
+}
+
+.LegalDocumentPaperDescription {
+	padding: 15px 0;
+	font-size: 18px;
+	font-weight: 500;
+	font-style: italic;
+}

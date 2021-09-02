@@ -1,0 +1,32 @@
+.TestimonialItem {
+    text-align: center;
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+.Avataar {
+    height: 95px;
+    border-radius: 50%;
+    box-shadow: 0 3px 20px 15px #0000003d;
+    margin: 20px 0;
+    border: 5px solid green;
+}
+
+.TestimonalAvataar {
+    text-align: center;
+}
+
+.TestimonialPara {
+    font-size: 18px;
+}
+
+.TestimonialClientName {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.TestimonialClientDesignation {
+    font-size: 16px;
+    font-weight: 300;
+    font-style: italic;
+}

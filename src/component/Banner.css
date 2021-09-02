@@ -1,0 +1,62 @@
+.Banner {
+	background-image: url(../assets/MessengerSolarBanner.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.BannerItem {
+	width: 800px;
+}
+
+.BannerSubHeading {
+	color: #1fa84c;
+	font-size: 19px;
+	font-weight: 700;
+}
+
+.BannerHeading {
+	color: white;
+	font-size: 40px;
+	font-weight: 700;
+}
+
+.BannerPara {
+	color: white;
+	font-size: 20px;
+	font-weight: 300;
+}
+
+.BannerTagLine {
+	font-size: 20px;
+	font-weight: 700;
+	font-style: italic;
+	padding: 5px;
+	border-radius: 3px;
+	text-shadow: 2px 10px 10px #000000;
+	background-color: #07a93c;
+}
+
+.BannerButton {
+	padding: 15px 30px;
+	background-color: #1fa84c;
+	color: #ffffff;
+	border: 1px solid #1fa84c;
+}
+
+.BannerButton:hover {
+	background-color: green;
+	border: 1px solid green;
+}
+
+.ButtonLink {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.ButtonLink:hover {
+	color: #ffffff;
+}

@@ -1,0 +1,26 @@
+.ContactForm {
+	padding: 30px;
+}
+
+.ContactFormMain {
+	padding: 70px 46px;
+	box-shadow: 0 0 50px 0 rgba(0, 1, 1, 0.11);
+	border-radius: 5px;
+}
+
+.ContactMainForm {
+	margin-top: 40px;
+}
+
+.ContactFormHeading {
+	text-align: center;
+	font-size: 30px;
+	font-weight: 700;
+	color: #1fa84c;
+}
+
+.ContactFormSubHeading {
+	text-align: center;
+	font-size: 18px;
+	font-weight: 400;
+}

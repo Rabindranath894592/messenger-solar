@@ -1,0 +1,16 @@
+.Breadcrumb {
+	background-image: url(../assets/MessengerSolarBanner.jpg);
+	background-size: cover;
+	height: 40vh;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.BreadcrumbName {
+	text-align: center;
+	font-weight: 600;
+	font-size: 40px;
+	color: #ffffff;
+}

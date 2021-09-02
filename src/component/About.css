@@ -1,0 +1,56 @@
+.About {
+	padding: 50px;
+}
+
+.AboutImage {
+	height: 400px;
+	width: auto;
+	padding: 20px 0;
+}
+
+@media only screen and (max-width: 1000px) {
+	.AboutImage {
+		height: 250px;
+	}
+}
+
+.AboutItem {
+	padding: 20px 0;
+}
+
+.AboutSubHeading {
+	font-size: 16px;
+	color: #1fa84c;
+	font-weight: 700;
+}
+
+.AboutHeading {
+	font-weight: 700;
+	font-size: 30px;
+}
+
+.AboutPara {
+	font-size: 18px;
+	padding: 20px 0;
+}
+
+.BannerButton {
+	padding: 15px 30px;
+	background-color: #1fa84c;
+	color: #ffffff;
+	border: 1px solid #1fa84c;
+}
+
+.BannerButton:hover {
+	background-color: green;
+	border: 1px solid green;
+}
+
+.ButtonLink {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.ButtonLink:hover {
+	color: #ffffff;
+}

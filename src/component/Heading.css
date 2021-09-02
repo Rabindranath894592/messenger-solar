@@ -1,0 +1,14 @@
+.Heading {
+	padding-top: 60px;
+	text-align: center;
+}
+
+.MainHeading {
+	font-weight: 700;
+	font-size: 30px;
+}
+
+.SubHeading {
+	font-size: 18px;
+	padding: 20px 0;
+}

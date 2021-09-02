@@ -1,0 +1,39 @@
+.Customer {
+    background-image: url(../assets/MessengerSolarBanner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CustomerItem {
+    padding: 50px 0;
+    margin: auto;
+}
+
+
+.CustomerHeading {
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.CustomerPara {
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 20px 0;
+}
+
+.CustomerButton {
+    padding: 15px 30px;
+    background-color: #1fa84c;
+    color: #ffffff;
+    border: 1px solid #1fa84c;
+}
+
+.CustomerButton:hover {
+    background-color: green;
+    border: 1px solid green;
+}
